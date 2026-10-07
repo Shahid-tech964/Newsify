@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/view/AuthScreens/setting_page.dart';
-import 'package:news_app/view/HomeScreen/home_screen.dart';
+import 'package:news_app/view/auth/setting_page.dart';
+import 'package:news_app/view/home/home_screen.dart';
 
 // CHANGED: Created main screen with bottom navigation bar
 class MainScreen extends StatefulWidget {

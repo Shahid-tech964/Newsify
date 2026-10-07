@@ -1,8 +1,8 @@
 // SignIn bloc
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/model/repository/authrepo/SignInRepo.dart';
-import 'package:news_app/model/repository/authrepo/SignUpRepo.dart';
+import 'package:news_app/model/repository/authrepo/sign_in_repo.dart';
+import 'package:news_app/model/repository/authrepo/sign_up_repo.dart';
 import 'package:news_app/model/usecases/authusecase/auth_usecase.dart';
 import 'package:news_app/viewmodel/bloc/auth/event.dart';
 import 'package:news_app/viewmodel/bloc/auth/state.dart';

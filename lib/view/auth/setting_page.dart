@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/model/repository/authrepo/SignOutRepo.dart';
+import 'package:news_app/model/repository/authrepo/sign_out_repo.dart';
 
 class SettingPage extends StatelessWidget {
   SignOutRepo signOutRepo = SignOutRepo();

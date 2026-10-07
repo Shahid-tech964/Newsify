@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/view/AuthScreens/sign_up_page.dart';
+import 'package:news_app/view/auth/sign_up_page.dart';
 import 'package:news_app/viewmodel/bloc/auth/auth_bloc.dart';
 import 'package:news_app/viewmodel/bloc/auth/event.dart';
 import 'package:news_app/viewmodel/bloc/auth/state.dart';

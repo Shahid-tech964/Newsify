@@ -3,9 +3,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:news_app/view/AuthScreens/sign_in_page.dart';
+import 'package:news_app/view/auth/sign_in_page.dart';
 import 'package:news_app/view/MainScreen/main_screen.dart';
 import 'package:news_app/viewmodel/bloc/auth/auth_bloc.dart';
+import 'package:news_app/viewmodel/bloc/home/bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,6 +18,7 @@ void main() async {
       providers: [
         BlocProvider(create: (_) => SignInBloc()),
         BlocProvider(create: (_) => SignUpBloc()),
+        BlocProvider(create: (_)=>HomeBloc())
       ],
       child: MyWidget(),
     ),
